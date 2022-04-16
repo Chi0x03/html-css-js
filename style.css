@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: bisque;
+    align-content: space-between;
+}
+
+#lorem {
+    background-color: aqua;
+    margin: 100;
+}
