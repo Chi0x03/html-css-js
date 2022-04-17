@@ -21,7 +21,7 @@ header {
 
 .margin {
     border: 3px solid sienna;
-    margin: 100px 150px 100px 80px;
+    margin: 50px 150px 50px 80px;
 
 /* If the margin property has four values: */
 /* margin: 25px 50px 75px 100px;
@@ -35,4 +35,15 @@ left margin is 100px */
     width: 200px;
     border: 2px solid seagreen;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#inherit {
+    border: 3px solid #042940;
+    margin: 0px 0px 0px 100px;
+}
+
+p.ex1 {
+    margin: inherit;
 }
