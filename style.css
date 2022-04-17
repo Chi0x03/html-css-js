@@ -19,5 +19,18 @@ header {
 
 .margin {
     border: 3px solid sienna;
-    margin: 100px 100px 150px 80px;
+    margin: 100px 150px 100px 80px;
+
+/* If the margin property has four values: */
+/* margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px */
+}
+
+.auto {
+    width: 200px;
+    border: 2px solid seagreen;
+    margin: auto;
 }
