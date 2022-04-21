@@ -3,16 +3,21 @@
     margin: 0;
 } */
 
-header {
+nav {
     padding: 10px;
     background-color: #DBF227;
     align-content: space-between;
     /* margin: 0px; */
 }
 
-header a {
+nav .cu {
     float: right;
+}
+
+nav a {
+    text-decoration: none;
     margin-left: 5px;
+    padding: 10px;
     background-color: #042940;
     color: #D6D58E;
 }
