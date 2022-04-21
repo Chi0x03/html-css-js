@@ -58,13 +58,27 @@ p.ex1 {
 
 .divizinha {
     border: 2px solid #042940;
-    padding-top: 50px;
+    /* padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 80px; */
+    padding: 50px 70px;
 }
 
 #bosta {
-    border: 2px solid #042940;
+    border: 2px solid #0b0c0c;
     /* padding: inherit; */
+}
+
+.padding-aumenta {
+    width: 300px;
+    padding: 25px;
+    background-color: cadetblue;
+}
+
+.padding-aumenta-concertado {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: aquamarine;
 }
