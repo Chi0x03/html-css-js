@@ -5,8 +5,16 @@
 
 header {
     padding: 10px;
-    background-color: bisque;
+    background-color: #DBF227;
     align-content: space-between;
+    /* margin: 0px; */
+}
+
+header a {
+    float: right;
+    margin-left: 5px;
+    background-color: #042940;
+    color: #D6D58E;
 }
 
 #lorem {
