@@ -124,3 +124,12 @@ p.ex1 {
     padding: 10px;
     margin: 0;
 }
+
+.outline {
+    margin: 30px;
+    /* outline-style: outset;
+    outline-width: 10px;
+    outline-color: #042940; */
+    outline: #042940 solid 10px;
+    outline-offset: 10px;
+}
