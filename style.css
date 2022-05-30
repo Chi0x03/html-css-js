@@ -192,3 +192,28 @@ p.ex1 {
     font-size: 60px;
     text-align: center;
 }
+
+.rtl {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.a {
+    vertical-align: baseline;
+}
+
+.b {
+    vertical-align: text-top;
+}
+
+.c {
+    vertical-align: text-bottom;
+}
+
+.d {
+    vertical-align: sub;
+}
+
+.e {
+    vertical-align: super;
+}
