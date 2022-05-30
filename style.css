@@ -141,3 +141,23 @@ p.ex1 {
 .txt-bg {
     background-color: #0b0c0c;
 }
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: justify;
+}
