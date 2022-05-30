@@ -161,3 +161,26 @@ p.ex1 {
     border: 1px solid black;
     text-align: justify;
 }
+
+.limitizin {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.right-l {
+    text-align-last: right;
+}
+
+.left-l {
+    text-align-last: left;
+}
+
+.justify-l {
+    width: 500px;
+    /* height: 200px; */
+    padding: 10px;
+    border: 1px solid black;
+    text-align-last: justify;
+}
