@@ -191,6 +191,7 @@ p.ex1 {
     font-weight: 700;
     font-size: 60px;
     text-align: center;
+    font-style: normal;
 }
 
 .rtl {
@@ -221,24 +222,41 @@ p.ex1 {
 .text-decoration-overline{
     text-decoration-line: overline;
     text-decoration-color: orangered;
+    text-decoration-style: dashed;
 }
 
 .text-decoration-line-through {
     text-decoration-line: line-through;
     text-decoration-color: blue;
+    text-decoration-style: dotted;
 }
 
 .text-decoration-underline {
     text-decoration-line: underline;
     text-decoration-color: #DBF227;
+    text-decoration-style: double;
 }
 
 .text-decoration-underline {
     text-decoration-line: underline;
     text-decoration-color: brown;
+    text-decoration-style: solid;
 }
 
 .text-decoration-tudo {
     text-decoration-line: underline overline line-through;
     text-decoration-color: cornflowerblue;
+    text-decoration-style: wavy;
+}
+
+.tt-uc {
+    text-transform: uppercase;
+}
+
+.tt-lc {
+    text-transform: lowercase;
+}
+
+.tt-cp {
+    text-transform: capitalize;
 }
