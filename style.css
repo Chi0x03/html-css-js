@@ -217,3 +217,28 @@ p.ex1 {
 .e {
     vertical-align: super;
 }
+
+.text-decoration-overline{
+    text-decoration-line: overline;
+    text-decoration-color: orangered;
+}
+
+.text-decoration-line-through {
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}
+
+.text-decoration-underline {
+    text-decoration-line: underline;
+    text-decoration-color: #DBF227;
+}
+
+.text-decoration-underline {
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+}
+
+.text-decoration-tudo {
+    text-decoration-line: underline overline line-through;
+    text-decoration-color: cornflowerblue;
+}
